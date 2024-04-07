@@ -1,0 +1,258 @@
+.container__parallax_i,
+.container__parallax_ii
+.container__parallax_iii,
+.container__parallax_iv,
+.container__parallax_v {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section__top {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: #604829;
+}
+
+.section__top__img {
+    width: 100px;
+    position: relative;
+    left: 15%;
+}
+
+.section__top div {
+    position: absolute;
+    top: 35%;
+    right: 15%;
+}
+
+.section__top__links a {
+    margin-right: 18px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-shadow: 3px 5px 2px #000000;
+    color: #c4a47c;
+    text-decoration: none;
+}
+
+.container__parallax_i {
+    background-image: url(/assets/img/parallax-imagem1.png);
+    height: 100vh;
+}
+
+.container__parallax_i h1 {
+    top: 45%;
+    right: 0;
+    left: 0;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    font-family: 'Fraunces', sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+}
+
+.container__parallax_ii {
+    background-image: url(/assets/img/parallax-imagem2.jpg);
+    height: 50vh;
+}
+
+.container__parallax_ii h3,
+.container__parallax_iii h3 {
+    position: relative;
+    width: 500px;
+    padding: 10px;
+    top: 45%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color: #604829;
+    color: #fff;
+    font-family: 'Fraunces', sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.container__parallax_iii {
+    background-image: url(/assets/img/parallax-imagem3.jpg);
+    height: 50vh;
+}
+
+.container__parallax_iv {
+    background-image: url(/assets/img/parallax-imagem4.png);
+    height: 100vh;
+}
+
+.container__parallax_iv h2 {
+    background-color: #604829;
+    color: #fff;
+    width: 500px;
+    padding: 10px;
+    position: relative;
+    top: 10%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.container__parallax_iv iframe {
+    position: absolute;
+    top: 23%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.container__contacts {
+    background-color: #604829;
+    position: absolute;
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+    bottom: 8%;
+    right: 0;
+    left: 0;
+}
+
+.container__contacts p {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    line-height: 36px;
+    text-shadow: 0px 6px 8px #000000;
+}
+
+.container__text {
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 34px;
+    padding: 80px 0px;
+}
+
+.container__text h2 {
+    color: #c4a47c;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.container__text p {
+    color: #666;
+    font-family: 'Lato', sans-serif;
+    line-height: 34px;
+    letter-spacing: 1px;
+    max-width: 1024px;
+    padding: 0px 20px;
+    margin: 0 auto;
+}
+
+.container__parallax_v {
+    background-image: url(/assets/img/cafeteria.jpg);
+    height: 85vh;
+}
+
+.container__parallax_v h2 {
+    position: absolute;
+    margin: 0 auto;
+    top: 20%;
+    right: 0;
+    left: 0;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    letter-spacing: 8px;
+    color: #ffffff;
+}
+
+.schedules__list {
+    position: absolute;
+    max-width: 768px;
+    margin: 0 auto;
+    bottom: 20%;
+    right: 0;
+    left: 0;
+    font-family: 'Oswald', sans-serif;
+    list-style: none;
+}
+
+.schedules__list li {
+    position: relative;
+}
+
+.schedules__list li h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.schedules__list li div {
+    position: absolute;
+    width: 70%;
+    height: 1px;
+    margin: 0 auto;
+    top: 50%;
+    right: 0;
+    left: 0;
+    background-color: #acacac;
+}
+
+.schedules__list li p,
+.schedules__list__text__closed {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+}
+
+.schedules__list__text__closed {
+    color: #c4a47c;
+}
+
+.schedules__list li p {
+    color: #acacac;
+}
+
+.section__footer {
+    position: relative;
+    background-color: #000000;
+    padding: 20px 0;
+    line-height: 34px;
+    letter-spacing: 2px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+}
+
+.section__footer p a {
+    color: #c4a47c;
+}
+
+.section__footer__link {
+    display: inline-block;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 80px;
+    right: 50px;
+    background-image: url(/assets/img/seta-para-cima.png);
+    background-position: center;
+    background-size: cover;
+    background-color: #c4a47c;
+    border-radius: 4px;
+}
+
